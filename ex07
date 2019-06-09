@@ -1,0 +1,12 @@
+def how_many_times(a_str):
+  a_str = a_str.split(" ")
+  count = 0
+  
+  for word in a_str:
+    if word == "Emma":
+      count = count + 1
+  return count
+
+
+result = how_many_times("Emma is a good developer. Emma is also a writer")
+print(result)
