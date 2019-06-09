@@ -1,0 +1,5 @@
+a_list = [10,220,3024,32,525,5]
+
+for num in a_list:
+ if num % 5 == 0:
+   print(num)
