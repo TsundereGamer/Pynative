@@ -1,0 +1,16 @@
+#Slicing
+
+a_str = "pynative"
+num = 4
+
+a_str = a_str[num::]
+print(a_str)
+
+#Ciclo For
+
+num = 4
+a_str = "pynative"
+
+for i in range(num, len(a_str)):
+  print(a_str[i],end="")
+print()
